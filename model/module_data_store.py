@@ -5,18 +5,31 @@ class ModuleDataStore:
     @staticmethod
     def getNextModulesForStudent(studentID):
         modules = []
-        fileHandler = open('model/modules/module-1.json')
+        modules.append(ModuleDataStore.getModuleDictById('1'))
+        return modules
+
+    @staticmethod
+    def dumpModules():
+        modules = []
+        modules.append(ModuleDataStore.getModuleDictById('1'))
+        modules.append(ModuleDataStore.getModuleDictById('2'))
+        modules.append(ModuleDataStore.getModuleDictById('3'))
+        return modules
+
+    @staticmethod
+    def getModuleDictById(moduleID):
+        fileHandler = open('model/modules/module-' + moduleID + '.json')
         moduleJSON = fileHandler.read()
         fileHandler.close()
         module = json.loads(moduleJSON)
-        fileHandler = open('model/modules/module-1.txt')
-        moduleText = fileHandler.read()
-        fileHandler.close()
+        try:
+            fileHandler = open('model/modules/module-' + moduleID + '.txt')
+            moduleText = fileHandler.read()
+            fileHandler.close()
+        except:
+            moduleText = ""
         module['text'] = moduleText
-        #moduleJSON = moduleJSON.replace('\r','\\r')
-        #moduleJSON = moduleJSON.replace('\n','\\n')
-        modules.append(module)
-        return modules
+        return module
 
 class Module:
 

@@ -33,6 +33,10 @@ def module():
         modules = ModuleDataStore.getNextModulesForStudent(inputDict)
         for module in modules:
             data.append(module)
+    if method == 'dumpModules':
+        modules = ModuleDataStore.dumpModules()
+        for module in modules:
+            data.append(module)
     return json.dumps(data)
 
 # Local dev machine only:

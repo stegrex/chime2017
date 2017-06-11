@@ -1,0 +1,31 @@
+{
+    "id": "2",
+    "language": "English",
+    "locale": "US",
+    "subject": "Math",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Equation Word Problems",
+    "description": "Students will learn how to model equations from a given word problem. They will understand what the variable represents in a real world context and be able to solve for the variable.",
+    "thumbnail": "https://i.ytimg.com/vi/bAUT_Pux73w/maxresdefault.jpg",
+    "creatorName": "Khan Academy (Sal Khan)",
+    "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
+    "videoURLs": [
+        "https://www.khanacademy.org/math/algebra/one-variable-linear-equations/alg1-linear-eq-word-probs/v/basic-linear-equation-word-problem",
+        "https://www.khanacademy.org/math/algebra/one-variable-linear-equations/alg1-linear-eq-word-probs/v/application-problems-with-equation-in-one-variable",
+        "https://www.khanacademy.org/math/algebra/one-variable-linear-equations/alg1-linear-eq-word-probs/v/linear-equation-word-problem-example"
+    ],
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "Benny received 72 dollars for his birthday. He went to a sporting goods store and bought a baseball glove, baseball, and bat. He had 18 dollars left over, how much did he spent on the baseball gear?",
+                "choices": ["54", "90", "70"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["2L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}
