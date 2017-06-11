@@ -29,6 +29,7 @@ class ModuleDataStore:
         modules.append(ModuleDataStore._getModuleDictById('1', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('2', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('3', languageCode))
+        '''
         modules.append(ModuleDataStore._getModuleDictById('4', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('5', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('6', languageCode))
@@ -36,6 +37,7 @@ class ModuleDataStore:
         modules.append(ModuleDataStore._getModuleDictById('8', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('9', languageCode))
         modules.append(ModuleDataStore._getModuleDictById('10', languageCode))
+        '''
         return modules
 
     @staticmethod
