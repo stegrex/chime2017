@@ -32,7 +32,7 @@ def module():
     if method == 'getNextModulesForStudent':
         modules = ModuleDataStore.getNextModulesForStudent(inputDict)
         for module in modules:
-            data.append(module.to_dict())
+            data.append(module)
     return json.dumps(data)
 
 # Local dev machine only:
