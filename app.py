@@ -29,15 +29,18 @@ def module():
     if inputJSON == None:
         inputJSON = '{}'
     inputDict = json.loads(inputJSON)
+    languageCode = bottle.request.GET.get('languageCode')
     data = []
     if method == 'getNextModulesForStudent':
         moduleIDToResultJSON = bottle.request.GET.get('moduleIDToResult')
         moduleIDToResult = json.loads(moduleIDToResultJSON)
-        modules = ModuleDataStore.getNextModulesForStudent(moduleIDToResult)
+        modules = ModuleDataStore.getNextModulesForStudent(
+            moduleIDToResult,
+            languageCode
+        )
         for module in modules:
             data.append(module)
     if method == 'dumpModules':
-        languageCode = bottle.request.GET.get('languageCode')
         modules = ModuleDataStore.dumpModules(languageCode)
         for module in modules:
             data.append(module)
@@ -45,7 +48,7 @@ def module():
     return json.dumps(data)
 
 # Local dev machine only:
-bottle.run(mainApp, host = 'localhost', port = 8080)
+#bottle.run(mainApp, host = 'localhost', port = 8080)
 
 # PRODUCTION:
-#bottle.run(mainApp, host = '0.0.0.0', port = 80)
+bottle.run(mainApp, host = '0.0.0.0', port = 80)

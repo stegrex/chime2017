@@ -20,7 +20,7 @@ class ModuleDataStore:
                 for x in currentModuleIDs:
                     if x not in moduleIDToResult:
                         moduleIDs.append(x)
-        modules = ModuleDataStore._getModuleDictsByIds(moduleIDs)
+        modules = ModuleDataStore._getModuleDictsByIds(moduleIDs, languageCode)
         return modules
 
     @staticmethod
@@ -32,10 +32,13 @@ class ModuleDataStore:
         return modules
 
     @staticmethod
-    def _getModuleDictsByIds(moduleIDs):
+    def _getModuleDictsByIds(moduleIDs, languageCode = None):
         modules = []
         for moduleID in moduleIDs:
-            modules.append(ModuleDataStore._getModuleDictById(moduleID))
+            modules.append(ModuleDataStore._getModuleDictById(
+                moduleID,
+                languageCode
+            ))
         return modules
 
     @staticmethod
