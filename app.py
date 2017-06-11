@@ -32,8 +32,9 @@ def module():
     languageCode = bottle.request.GET.get('languageCode')
     data = []
     if method == 'getNextModulesForStudent':
-        moduleIDToResultJSON = bottle.request.GET.get('moduleIDToResult')
-        moduleIDToResult = json.loads(moduleIDToResultJSON)
+        moduleID = bottle.request.GET.get('moduleID')
+        percentage = int(bottle.request.GET.get('percentage'))
+        moduleIDToResult = {moduleID : percentage}
         modules = ModuleDataStore.getNextModulesForStudent(
             moduleIDToResult,
             languageCode
