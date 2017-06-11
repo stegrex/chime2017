@@ -48,7 +48,7 @@ def module():
     return json.dumps(data)
 
 # Local dev machine only:
-bottle.run(mainApp, host = 'localhost', port = 8080)
+#bottle.run(mainApp, host = 'localhost', port = 8080)
 
 # PRODUCTION:
-#bottle.run(mainApp, host = '0.0.0.0', port = 80)
+bottle.run(mainApp, host = '0.0.0.0', port = 80)
