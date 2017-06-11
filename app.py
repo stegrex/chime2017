@@ -31,13 +31,33 @@ def module():
     inputDict = json.loads(inputJSON)
     data = []
     if method == 'getNextModulesForStudent':
-        modules = ModuleDataStore.getNextModulesForStudent(inputDict)
+        moduleIDToResultJSON = bottle.request.GET.get('moduleIDToResult')
+        moduleIDToResult = json.loads(moduleIDToResultJSON)
+        modules = ModuleDataStore.getNextModulesForStudent(moduleIDToResult)
         for module in modules:
             data.append(module)
     if method == 'dumpModules':
         modules = ModuleDataStore.dumpModules()
         for module in modules:
             data.append(module)
+    bottle.response.content_type = 'application/json; charset=UTF-8'
+    return json.dumps(data)
+
+@mainApp.get('/api/sync')
+@mainApp.get('/api/sync/')
+def sync():
+    method = bottle.request.GET.get('method')
+    inputJSON = bottle.request.GET.get('input')
+    if inputJSON == None:
+        inputJSON = '{}'
+    inputDict = json.loads(inputJSON)
+    data = []
+    if method == 'syncHigh':
+        modules = ModuleDataStore.syncHigh()
+        data = modules
+    if method == 'syncLow':
+        modules = ModuleDataStore.syncLow()
+        data = modules
     bottle.response.content_type = 'application/json; charset=UTF-8'
     return json.dumps(data)
 
