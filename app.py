@@ -43,24 +43,6 @@ def module():
     bottle.response.content_type = 'application/json; charset=UTF-8'
     return json.dumps(data)
 
-@mainApp.get('/api/sync')
-@mainApp.get('/api/sync/')
-def sync():
-    method = bottle.request.GET.get('method')
-    inputJSON = bottle.request.GET.get('input')
-    if inputJSON == None:
-        inputJSON = '{}'
-    inputDict = json.loads(inputJSON)
-    data = []
-    if method == 'syncHigh':
-        modules = ModuleDataStore.syncHigh()
-        data = modules
-    if method == 'syncLow':
-        modules = ModuleDataStore.syncLow()
-        data = modules
-    bottle.response.content_type = 'application/json; charset=UTF-8'
-    return json.dumps(data)
-
 # Local dev machine only:
 #bottle.run(mainApp, host = 'localhost', port = 8080)
 
