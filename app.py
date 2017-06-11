@@ -35,4 +35,8 @@ def module():
             data.append(module.to_dict())
     return json.dumps(data)
 
-bottle.run(mainApp, host = 'localhost', port = 8080)
+# Local dev machine only:
+#bottle.run(mainApp, host = 'localhost', port = 8080)
+
+# PRODUCTION:
+bottle.run(mainApp, host = '0.0.0.0', port = 80)
