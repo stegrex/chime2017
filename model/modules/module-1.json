@@ -1,5 +1,5 @@
 {
-    "id": 1,
+    "id": "1",
     "language": "English",
     "locale": "US",
     "subject": "Math",
@@ -20,16 +20,8 @@
             {
                 "type": "multipleChoice",
                 "questionText": "Evaluate the expression using the values m = 7, r = 8, and t = 2: 5m - 6",
-                "choices": [
-                    {
-                        "choiceText": "29",
-                        "correct": true
-                    },
-                    {
-                        "choiceText": "27",
-                        "correct": false
-                    }
-                ]
+                "choices": [29, 27],
+                "correctChoices": [29]
             }
         ]
     },
