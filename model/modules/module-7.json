@@ -1,0 +1,27 @@
+{
+    "id": "7",
+    "language": "English",
+    "locale": "US",
+    "subject": "World History",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Ancient Egypt",
+    "description": "This module will give students a broad, quick overview of world history. Topics include the Agricultural Revolution, Mesopotamia, Ancient Egypt, etc.",
+    "thumbnail": "https://s-media-cache-ak0.pinimg.com/736x/df/9b/3b/df9b3bed9df660eb8b51c1926d84b893.jpg",
+    "creatorName": "Crash Course",
+    "creatorImage": "http://static.tvtropes.org/pmwiki/pub/images/crashcourse_7330.png",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "9",
+    "language": "English",
+    "locale": "US",
+    "subject": "Python",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Python",
+    "description": "This introductory Python course gives students a glance into programming and computer science through the simple language of Python that is easy for users to understand and learn. Students will be able to write programs that solve simple coding problems and exercises.",
+    "thumbnail": "https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg",
+    "creatorName": "Pie Thawn",
+    "creatorImage": "http://www.naturalprogramming.com/images/smilingpython.gif",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}

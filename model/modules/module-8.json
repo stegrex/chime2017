@@ -1,0 +1,27 @@
+{
+    "id": "8",
+    "language": "English",
+    "locale": "US",
+    "subject": "HTML/CSS",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Styling With CSS",
+    "description": "This module teaches students the basics of HTML/CSS. This gives students the skills to create their own website and become more involved in web development.",
+    "thumbnail": "https://theseosystem.com/wp-content/uploads/2015/01/html-css-validation-authority-sites.jpg",
+    "creatorName": "CodeCademy",
+    "creatorImage": "http://wahlnetwork.com/wp-content/uploads/2013/12/codecademy.png",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "10",
+    "language": "English",
+    "locale": "US",
+    "subject": "JavaScript",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "JavaScript",
+    "description": "Dieser Kurs unterrichtet Schüler, wie man JavaScript benutzt. JavaScript kann verwendet werden, um Animationen oder Videos zu machen.",
+    "thumbnail": "https://cdn-images-1.medium.com/max/800/1*ot7tWiPCYC01pV0kGmK3qQ.png",
+    "creatorName": "CodeCademy",
+    "creatorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOB1w5R7GSLYvDHGNpFxUECHFxinJ-T_hQ08MOD71r8MCIBgQb",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}

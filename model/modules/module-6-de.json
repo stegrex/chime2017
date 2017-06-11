@@ -1,0 +1,27 @@
+{
+    "id": "6",
+    "language": "Deutsche",
+    "locale": "US",
+    "subject": "Chemie",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Der Kern",
+    "description": "Dieser Kurs dient als Einführungs-Chemie-Klasse für Schüler in der Sekundarschule. Die Studierenden lernen verschiedene Themen in der Chemie, wie zB die Verwendung von signifikanten Zahlen in Labors, den Kern, den Periodensystem, Elektronen, Gasgesetze, Säure und Basen und Redox.",
+    "thumbnail": "http://mrspikescience.weebly.com/uploads/3/2/1/7/32172989/29-chemistry_orig.jpg",
+    "creatorName": "Crash Course",
+    "creatorImage": "http://static.tvtropes.org/pmwiki/pub/images/crashcourse_7330.png",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}
