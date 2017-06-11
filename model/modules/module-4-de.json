@@ -1,0 +1,27 @@
+{
+    "id": "4",
+    "language": "Deutsche",
+    "locale": "US",
+    "subject": "Mädchen / Frauen-zentriert",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Selbstverteidigung",
+    "description": "Dieses Modul soll jungen Mädchen und Frauen helfen, sich in ihren Selbstverteidigungsfähigkeiten mehr zuversichtlich zu fühlen und sich mehr über die sexuelle Gesundheit der Frauen zu informieren. Da Frauen mehr ausgebildet sind, sind sie weniger anfällig für Missbrauch und Gewalt.",
+    "thumbnail": "http://poetsandquants.com/wp-content/uploads/2012/12/class-female.jpg",
+    "creatorName": "UNICEF",
+    "creatorImage": "https://s-media-cache-ak0.pinimg.com/736x/08/5a/d4/085ad448933875d5c3f3da93bfaac820.jpg",
+    "videoURL": "roHvNNFXr4k",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "Benny received 72 dollars for his birthday. He went to a sporting goods store and bought a baseball glove, baseball, and bat. He had 18 dollars left over, how much did he spent on the baseball gear?",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}

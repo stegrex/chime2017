@@ -1,0 +1,27 @@
+{
+    "id": "4",
+    "language": "English",
+    "locale": "US",
+    "subject": "Elementary Science",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "The Moon",
+    "description": "This module teaches young students in primary school the basics of science. Students can watch these entertaining videos to get a sense of how science is used in the world around them.",
+    "thumbnail": "http://blog.edmentum.com/sites/blog.edmentum.com/files/styles/blog_image/public/images/ElementaryScience.png?itok=f6hA7c5A",
+    "creatorName": "Bill Nye the Science Guy",
+    "creatorImage": "http://thehunterdoncountynews.com/wp-content/uploads/2017/02/2-9.jpg",
+    "videoURL": "",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "",
+                "choices": ["54", "90"],
+                "correctChoices": ["54"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["3L"],
+    "highScoreNextModules": ["1"],
+    "text": ""
+}
