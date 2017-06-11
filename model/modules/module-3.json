@@ -20,7 +20,7 @@
             {
                 "type": "multipleChoice",
                 "questionText": "Benny received 72 dollars for his birthday. He went to a sporting goods store and bought a baseball glove, baseball, and bat. He had 18 dollars left over, how much did he spent on the baseball gear?",
-                "choices": ["54", "90", "70"],
+                "choices": ["54", "90"],
                 "correctChoices": ["54"]
             }
         ]

@@ -20,14 +20,14 @@
             {
                 "type": "multipleChoice",
                 "questionText": "6r + 7 = 13 + 7r",
-                "choices": ["-6", "20", "6"],
+                "choices": ["-6", "20"],
                 "correctChoices": ["-6"]
             },
             {
                 "type": "multipleChoice",
                 "questionText": "13 − 4x = 1 − x",
-                "choice": [4, 3, 12, 14],
-                "correctChoices": [4]
+                "choice": ["4", "3"],
+                "correctChoices": ["4"]
             }
         ]
     },
