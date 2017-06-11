@@ -18,6 +18,30 @@
                 "questionText": "Bewerte den Ausdruck mit den Werten m = 7, r = 8 und t = 2: 5m - 6",
                 "choices": ["29", "27"],
                 "correctChoices": ["29"]
+            },
+            {
+                "type": "multipleChoice",
+                "questionText": "6r + 7 = 13 + 7r",
+                "choices": ["-6", "20"],
+                "correctChoices": ["-6"]
+            },
+            {
+                "type": "multipleChoice",
+                "questionText": "13 − 4x = 1 − x",
+                "choices": ["4", "3"],
+                "correctChoices": ["4"]
+            },
+            {
+                "type": "multipleChoice",
+                "questionText": "6r + 7 = 13 + 7r",
+                "choices": ["-6", "20"],
+                "correctChoices": ["-6"]
+            },
+            {
+                "type": "multipleChoice",
+                "questionText": "13 − 4x = 1 − x",
+                "choices": ["4", "3"],
+                "correctChoices": ["4"]
             }
         ]
     },

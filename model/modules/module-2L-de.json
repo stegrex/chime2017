@@ -22,7 +22,7 @@
             {
                 "type": "multipleChoice",
                 "questionText": "13 − 4x = 1 − x",
-                "choice": ["4", "3"],
+                "choices": ["4", "3"],
                 "correctChoices": ["4"]
             }
         ]
