@@ -1,13 +1,20 @@
+import json
+
 class ModuleDataStore:
 
     @staticmethod
     def getNextModulesForStudent(studentID):
         modules = []
-        module = Module()
-        module.name = 'Algebra'
-        module.age = 10
-        module.language = 'Thai'
-        module.locale = 'US'
+        fileHandler = open('model/modules/module-1.json')
+        moduleJSON = fileHandler.read()
+        fileHandler.close()
+        module = json.loads(moduleJSON)
+        fileHandler = open('model/modules/module-1.txt')
+        moduleText = fileHandler.read()
+        fileHandler.close()
+        module['text'] = moduleText
+        #moduleJSON = moduleJSON.replace('\r','\\r')
+        #moduleJSON = moduleJSON.replace('\n','\\n')
         modules.append(module)
         return modules
 

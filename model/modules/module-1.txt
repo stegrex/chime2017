@@ -1,0 +1,39 @@
+Module 1: Introduction to Algebra
+
+
+
+Video 1 Transcript: What is a Variable
+
+Let's say that I'm working at a restaurant and I'm making 10 dollars per hour. But on top of my hourly wage I also get tips each hour. So this entire expression you can do this as how much i might make in a given hour. Now you might also realized that the number of tips or the amount of tips I may make in an hour can change dramatically from hour to hour. It can vary. One hour it might be lunch time, get a lot of tips. People might get some big ticket item. And the next hour, there might not have any customers, the tips might be really low. So the tip's part right over here, we consider that, the entire word, we consider that to be a variable, from scenario to scenario, it can change. So for example, in one scenario, maybe it's lunchtime, I'm getting really big tips. So tips is equal to, Let's say it's equal to 30 dollars. So the total amount I might make in that hour is going, we can go back to this expression right over here, it's going to be 10 plus, instead of going to write tips over here, I'll write 30, because that's what my tips are in that hour. So that is going to be equal to, it's going to be equal to 40. ... I'm gonna do that, do that yellow color. It's going to be equal to 40 dollars. But let's say right after that, the restaurant slows down, out of the lunch hour, for whatever reason, maybe the restaurant next door has a big sale or something And so the next hour, my tips go down dramatically, my tips go down to 5 dollars for that hour. Now I go back to this expression, the total I make is my hourly wage plus the 5 dollars in tips, plus the 5 dollars in tips, which is equal to 15 dollars. As you see, this entire expression, the 10 plus tips, it changed depending on the value of the variable tips is. Now you won't see a whole word typically use in Algebra as variables. We get lazy, so instead, we tend to use this, easier to write symbols. So in this contexts, we instead of writing tips, maybe we could have just written, 10 + t, where t, where t represents the tip that we earned in a hour. So then we will say, okay, what happen when t is equal to 30. Well t is equal to 30, then we'd have, let me write, so what happens when t is equal to 30, well then we have a situation. T is equal to 30. This evaluates the 10 plus 30, which would be 40. What would happen if t is equal to 5, well then this would evaluate to 10 plus 5, which is equal to 15. I wanna be clear, we didn't even have to use t, we didn't even really have to use a letter, although in traditional algebra, you almost do use a letter. We could have written that as, we could have written that as 10 + x, where x is your tips for a hour, x might not be as natural, it's not the first letter in the word tips. Or you could've even written 10 plus, you could've even written 10 plus star, where you can say star represents the number of tips in a hour. But it just might have not made as much intuitive sense. But hopefully it gives you a general idea, just what a variable is. All it is a symbol, all it is a symbol that represents different varying values, that's why we called it a variable.
+
+
+
+Video 2 Transcript: Evaluating expressions
+
+Now, let's think about expressions with more than one variable. So say I had the expression a plus-- I'll do a really simple one, a plus b. And I want to evaluate this expression when a is equal to 7 and b is equal to 2. And I encourage you to pause this and try this on your own. Well, wherever we see the a, we would just replace it with the 7. And wherever we see the b, we'd replace it with the 2. So when a equals 7 and b equals 2, this expression will be 7 plus 2, which, of course, is equal to 9. So this expression would be equal to 9 in this circumstance. Let's do a slightly more complicated one. Let's say we have the expression x times y minus y plus x. Actually, let's make it plus 3x. Or another way of saying it plus 3 times x. So let's evaluate this when x is equal to 3 and y is equal to 2. And once again, I encourage you to pause this video and try this on your own. Well, everywhere we see an x, let's replace it with a 3. Every place we see a y, let's replace it with a 2. So this is going to be equal to 3 times y. And y is 2 in this case. 3 times 2 minus 2 plus this 3 times x. But x is also now equal to 3. So what is this going to be equal to? Well, this is going to be equal to 3 times 2 is 6. This 3 times 3 is 9. So it simplifies to 6 minus 2, which is 4, plus 9, which is equal to 13. So in this case, it is equal to 13.
+
+
+
+Video 3 Transcript: Combining Like Terms
+
+I've gotten feedback that all the Chuck Norris imagery in the last video might have been a little bit too overwhelming. So, for this video, I've included something a little bit more soothing. So let's try to simplify some more expressions. and we'll see we're just applying ideas that we already knew about. So, let's say I want to simplify the expression 2(3x + 5). Well, this literally means two "3x + 5". So, this is the exact same thing as... So this is one "3x + 5", and then to that, I'm going to add another "3x + 5". This is literally what 2(3x + 5) means. Well this, is the same thing as... if we're gonna just have a look right over here, we have now two "3x". So, we can write it as 2(3x), plus we have two "5". So, plus 2(5). But, you might say: "Hey Sal, isn't this just the distributive property that I know from arithmetic? I've essentially just distributed the two "2(3x)" plus "2(5)", And I would tell you: "Yes, it is!" And, the whole reason why I'm doing this, is just to show you that it is exactly what you all already know. But with that out of the way, let's continue to simplify it. So, when you multiply the 2(3x), you get 6x. If you multiply the 2(5), you get 10. So, this simplifies to 6x + 10. Now, let's try something that's a little bit more evolved. Once again, really just things that you already know. So, let's say I had 7(3y - 5) - 2(10 +4y). Let's see if we can simplify this. Well, let's work on the left-hand side of the expression. The 7(3y - 5). We just have to distribute the "7". So, this is gonna be 7 times 3y, which is going to give us 21y, Or, if I had three "y" seven times, this is going to be 21y (either way you want to think about it). And then I have "7" times... We're going to be careful with the sign. This is "7" times negative 5. "7" times "-5" is "-35". So, we simplified this part of it. Let's simplify the right hand side. So, you might be tempted to say: "Oh, "2" times "10" and "2" times "4y", and then subtract them, and if you do that right and distribute the subtraction, it would work out. But, I like to think of this as... "-2". And we're just going to distribute the "-2" times "10", and then we're going to distribute the "-2" times "4y". So, "-2" times "10" is "-20". (minus 20, right over here). And then "-2" times "4y"... "-2" times "4" is "-8", so it's going to be "-8y". So, let's write a "-8y" right over here. And now we're done simplifying. Well no, there's a little bit more that we can do. We can't add the "21y" to the "-35" or the "-20", because these are adding different things or subtracting different things. But we do have two things that are multiplying "y". We have the... Let me do them all in this green color. You have 21y, right over here. And then, from that we are subtracting 8y. So 21 of something... If I have 21 of something and I take 8 of them away, I'm left with 13 of that something. So, those are going to simplify to 13y. And then, I have "-35" minus "20". And so, that's just going to simplify to "-55". So, this whole thing simplified, using a little bit of distributive property and combining similar or like terms, we got to "13y - 55".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclaimer: All Content Courtesy of Khan Academy

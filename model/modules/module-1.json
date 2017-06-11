@@ -1,0 +1,38 @@
+{
+    "id": 1,
+    "language": "English",
+    "locale": "US",
+    "subject": "Math",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Introduction to Algebra",
+    "description": "This module gives students a brief introduction to the basics of algebra. Students will become familiar with using variable names in equations, simplifying and evaluating algebraic expressions, and solving one-variable equations.",
+    "thumbnail": "https://i.ytimg.com/vi/kpCJyQ2usJ4/maxresdefault.jpg",
+    "creatorName": "Khan Academy (Sal Khan)",
+    "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
+    "videoURLs": [
+        "https://www.khanacademy.org/math/algebra/introduction-to-algebra/alg1-intro-to-variables/v/what-is-a-variable",
+        "https://www.khanacademy.org/math/algebra/introduction-to-algebra/alg1-substitution/a/evaluating-expressions-with-two-variables",
+        "https://www.khanacademy.org/math/algebra/introduction-to-algebra/alg1-manipulating-expressions/v/combining-like-terms-and-the-distributive-property"
+    ],
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "Evaluate the expression using the values m = 7, r = 8, and t = 2: 5m - 6",
+                "choices": [
+                    {
+                        "choiceText": "29",
+                        "correct": true
+                    },
+                    {
+                        "choiceText": "27",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["1L"],
+    "highScoreNextModules": ["2"]
+}
