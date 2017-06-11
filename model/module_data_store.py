@@ -29,16 +29,6 @@ class ModuleDataStore:
         return modules
 
     @staticmethod
-    def _getPassModuleID(moduleID):
-        subject, number, performance = moduleID.split('-')
-        return subject + str(int(number)) + performance
-
-    @staticmethod
-    def _getFailModuleID(moduleID):
-        subject, number, performance = moduleID.split('-')
-        return subject + number + 'L'
-
-    @staticmethod
     def _getModuleDictsByIds(moduleIDs):
         modules = []
         for moduleID in moduleIDs:
