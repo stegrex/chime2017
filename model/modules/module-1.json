@@ -10,7 +10,7 @@
     "thumbnail": "https://i.ytimg.com/vi/kpCJyQ2usJ4/maxresdefault.jpg",
     "creatorName": "Khan Academy (Sal Khan)",
     "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
-    "videoURLs": "https://www.youtube.com/watch?v=tHYis-DP0oU",
+    "videoURL": "https://www.youtube.com/watch?v=tHYis-DP0oU",
     "assessment": {
         "questions": [
             {
