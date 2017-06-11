@@ -18,6 +18,7 @@ def student():
         students = StudentDataStore.getStudentsForTeacher(inputDict)
         for student in students:
             data.append(student.to_dict())
+    bottle.response.content_type = 'application/json; charset=UTF-8'
     return json.dumps(data)
 
 @mainApp.get('/api/module')
@@ -37,6 +38,7 @@ def module():
         modules = ModuleDataStore.dumpModules()
         for module in modules:
             data.append(module)
+    bottle.response.content_type = 'application/json; charset=UTF-8'
     return json.dumps(data)
 
 # Local dev machine only:
