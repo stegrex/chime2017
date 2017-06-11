@@ -42,6 +42,8 @@ class ModuleDataStore:
     def _getModuleDictById(moduleID, languageCode = None):
         if languageCode == 'ar':
             languageCodeAppend = '-ar'
+        elif languageCode == 'de':
+            languageCodeAppend = '-de'
         else:
             languageCodeAppend = ''
         try:

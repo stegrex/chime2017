@@ -1,12 +1,12 @@
 {
     "id": "3",
-    "language": "English",
+    "language": "Deutsche",
     "locale": "US",
-    "subject": "Math",
+    "subject": "Mathe",
     "minAge": 12,
     "maxAge": 13,
-    "name": "Equation Word Problems",
-    "description": "Students will learn how to model equations from a given word problem. They will understand what the variable represents in a real world context and be able to solve for the variable.",
+    "name": "Gleichung Wort Probleme",
+    "description": "Die Schüler lernen, wie man Gleichungen aus einem gegebenen Wortproblem modelliert. Sie werden verstehen, was die Variable in einem realen Weltkontext darstellt und in der Lage sein wird, für die Variable zu lösen.",
     "thumbnail": "https://i.ytimg.com/vi/bAUT_Pux73w/maxresdefault.jpg",
     "creatorName": "Khan Academy (Sal Khan)",
     "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
@@ -15,7 +15,7 @@
         "questions": [
             {
                 "type": "multipleChoice",
-                "questionText": "Benny received 72 dollars for his birthday. He went to a sporting goods store and bought a baseball glove, baseball, and bat. He had 18 dollars left over, how much did he spent on the baseball gear?",
+                "questionText": "Benny erhielt 72 Dollar für seinen Geburtstag. Er ging zu einem Sportgeschäft und kaufte einen Baseballhandschuh, Baseball und Fledermaus. Er hatte 18 Dollar übrig, wie viel hat er auf dem Baseball-Equipment verbracht?",
                 "choices": ["54", "90"],
                 "correctChoices": ["54"]
             }
