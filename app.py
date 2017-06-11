@@ -37,7 +37,8 @@ def module():
         for module in modules:
             data.append(module)
     if method == 'dumpModules':
-        modules = ModuleDataStore.dumpModules()
+        languageCode = bottle.request.GET.get('languageCode')
+        modules = ModuleDataStore.dumpModules(languageCode)
         for module in modules:
             data.append(module)
     bottle.response.content_type = 'application/json; charset=UTF-8'

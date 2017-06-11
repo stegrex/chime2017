@@ -3,10 +3,13 @@ import json
 class ModuleDataStore:
 
     @staticmethod
-    def getNextModulesForStudent(moduleIDToResult):
+    def getNextModulesForStudent(moduleIDToResult, languageCode = None):
         moduleIDs = []
         for moduleID in moduleIDToResult:
-            moduleDict = ModuleDataStore._getModuleDictById(moduleID)
+            moduleDict = ModuleDataStore._getModuleDictById(
+                moduleID,
+                languageCode
+            )
             if moduleIDToResult[moduleID] >= 75:
                 currentModuleIDs = moduleDict['highScoreNextModules']
                 for x in currentModuleIDs:
@@ -21,11 +24,11 @@ class ModuleDataStore:
         return modules
 
     @staticmethod
-    def dumpModules():
+    def dumpModules(languageCode = None):
         modules = []
-        modules.append(ModuleDataStore._getModuleDictById('1'))
-        modules.append(ModuleDataStore._getModuleDictById('2'))
-        modules.append(ModuleDataStore._getModuleDictById('3'))
+        modules.append(ModuleDataStore._getModuleDictById('1', languageCode))
+        modules.append(ModuleDataStore._getModuleDictById('2', languageCode))
+        modules.append(ModuleDataStore._getModuleDictById('3', languageCode))
         return modules
 
     @staticmethod
@@ -36,13 +39,24 @@ class ModuleDataStore:
         return modules
 
     @staticmethod
-    def _getModuleDictById(moduleID):
-        fileHandler = open('model/modules/module-' + moduleID + '.json')
-        moduleJSON = fileHandler.read()
-        fileHandler.close()
+    def _getModuleDictById(moduleID, languageCode = None):
+        if languageCode == 'ar':
+            languageCodeAppend = '-ar'
+        else:
+            languageCodeAppend = ''
+        try:
+            fileHandler = open(
+                'model/modules/module-' + moduleID + languageCodeAppend + '.json'
+            )
+            moduleJSON = fileHandler.read()
+            fileHandler.close()
+        except:
+            moduleJSON = '{}'
         module = json.loads(moduleJSON)
         try:
-            fileHandler = open('model/modules/module-' + moduleID + '.txt')
+            fileHandler = open(
+                'model/modules/module-' + moduleID + languageCodeAppend + '.txt'
+            )
             moduleText = fileHandler.read()
             fileHandler.close()
         except:

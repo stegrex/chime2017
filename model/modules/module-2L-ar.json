@@ -1,0 +1,33 @@
+{
+    "id": "2",
+    "language": "English",
+    "locale": "US",
+    "subject": "Math",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Equations with One Variable",
+    "description": "This module teaches students how to work with equations consisting of one variable that may be on both sides of the equation. Students will understand the importance of performing operations (addition, subtraction, multiplication, division) on both sides of the equal sign. Students will be able to solve specific situations where the coefficients may be fractions instead of integers and where variables may be in the denominator.",
+    "thumbnail": "https://api.url2png.com/v6/P505A37F877780/65f344cdde79d471f0b43efb90ee91c8/png/?url=https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/cc-8th-linear-equations/v/equations-3&thumbnail_max_width=500&thumbnail_max_height=500",
+    "creatorName": "Khan Academy (Sal Khan)",
+    "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
+    "videoURL": "YZBStgZGyDY",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "6r + 7 = 13 + 7r",
+                "choices": ["-6", "20"],
+                "correctChoices": ["-6"]
+            },
+            {
+                "type": "multipleChoice",
+                "questionText": "13 − 4x = 1 − x",
+                "choice": ["4", "3"],
+                "correctChoices": ["4"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["2"],
+    "highScoreNextModules": ["3"],
+    "text": ""
+}

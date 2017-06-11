@@ -1,0 +1,26 @@
+{
+    "id": "1",
+    "language": "Arabic",
+    "locale": "US",
+    "subject": "Math",
+    "minAge": 12,
+    "maxAge": 13,
+    "name": "Introduction to Algebra",
+    "description": "This module gives students a brief introduction to the basics of algebra. Students will become familiar with using variable names in equations, simplifying and evaluating algebraic expressions, and solving one-variable equations.",
+    "thumbnail": "https://i.ytimg.com/vi/kpCJyQ2usJ4/maxresdefault.jpg",
+    "creatorName": "Khan Academy (Sal Khan)",
+    "creatorImage": "https://www.khanacademy.org/images/khan-logo-vertical-transparent.png",
+    "videoURL": "tHYis-DP0oU",
+    "assessment": {
+        "questions": [
+            {
+                "type": "multipleChoice",
+                "questionText": "Evaluate the expression using the values m = 7, r = 8, and t = 2: 5m - 6",
+                "choices": ["29", "27"],
+                "correctChoices": ["29"]
+            }
+        ]
+    },
+    "lowScoreNextModules": ["1L"],
+    "highScoreNextModules": ["2"]
+}
